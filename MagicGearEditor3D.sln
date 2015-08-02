@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MGECore", "MGECore\MGECore.vcproj", "{FEF29869-AB46-49F9-B456-79E77DAAAA6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicGearEditor3D", "MagicGearEditor3D\MagicGearEditor3D.csproj", "{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A} = {FEF29869-AB46-49F9-B456-79E77DAAAA6A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A}.Debug|Win32.Build.0 = Debug|Win32
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A}.Release|Win32.ActiveCfg = Release|Win32
+		{FEF29869-AB46-49F9-B456-79E77DAAAA6A}.Release|Win32.Build.0 = Release|Win32
+		{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F42E7239-FE59-45DF-BA4E-F60A2D2DD07D}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
